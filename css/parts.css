@@ -344,7 +344,7 @@ body.appear #wrapper{
 
 /*hoverした際のボタンの形状*/
 .btn04:hover {
-	color:#fff;
+	color:#62BF04;
 	border-color: transparent;
     /*色の変化を遅らせる*/
 	transition-delay: .6s;
@@ -367,7 +367,7 @@ body.appear #wrapper{
     width:1px;
     height: 0;
     /*線の形状*/
-    background: #D7F277;
+    background: #CBF291;
     /*アニメーションの設定*/
 	transition: all .3s;
 }
@@ -762,7 +762,7 @@ span.mask{
 	opacity:0;/*透過0*/
 	transition: .3s ease-in-out;/*移り変わる速さを変更したい場合はこの数値を変更*/
     transform: translateY(100%);
-	background:#e2a2b2;/*背景色*/
+	background:#C2F279;/*背景色*/
 	width:100%;
 	height: 100%;	
 }

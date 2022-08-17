@@ -45,6 +45,7 @@ img{
 h1,
 #g-nav-list li:nth-child(1),
 #menu h2,
+#contact-title,
 #footer dl dd,
 #splash-logo{
     font-family:'Parisienne', cursive;
@@ -180,14 +181,15 @@ h1,
 }
 /* lead */
 
-#lead{
-    display: flex;
-    flex-direction: column;
-}
+
 
 #lead p{
     padding-top:  140px;
     
+}
+
+.lead-btn{
+    margin-left:70%;
 }
 
 
@@ -339,6 +341,14 @@ _:-ms-lang(x)::-ms-backdrop, #lead .lead-area p{
 }
 
 /* contact */
+
+#contact-title h2{
+    font-size: 4rem;
+    text-align: center;
+    margin: 0 0 50px 0;
+    font-weight: normal;
+    color: #62BF04;
+}
 
 #contact{
     display: flex;
