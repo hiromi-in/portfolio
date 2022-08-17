@@ -184,32 +184,20 @@ h1,
 
 #lead{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-between;
-    padding-top:140px;
+    align-items: center;
 }
 
-#lead .lead-img{
-     width:46%;
-    min-height: 400px;
-    background: url("../img/lead.jpg") no-repeat center;
-    background-size: cover;
+#lead p{
+    padding-top:  140px;
 }
 
-#lead .lead-area{
-    width:52%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-around;
-    flex-direction: row-reverse;
-}
 
 @media screen and (max-width:1060px) {
-#lead .lead-img{
-     width:30%;
-}
+
 #lead .lead-area{
-    width:68%;
+    width:80%;
 }
 }
 
@@ -218,14 +206,10 @@ h1,
     flex-direction: column-reverse;
 }
 
-#lead .lead-img,
+
 #lead .lead-area{
     width:100%;
 } 
-    
-#lead .lead-img{
-    min-height: 250px;
-    }
     
 #lead .lead-area{
     margin: 0 0 140px 0;
@@ -234,31 +218,25 @@ h1,
 }
 }
 
-#lead .lead-area h2,
 #lead .lead-area p,
 #lead .lead-area .lead-btn a{
     -ms-writing-mode: tb-rl;
-    -webkit-writing-mode: vertical-rl;
-    writing-mode: vertical-rl;    
+    -webkit-writing-mode: horizontal-tb;
+    writing-mode: horizontal-tb;    
     text-orientation: upright;
-}
 
-#lead .lead-area h2{
-    width:28%;
-    line-height:2.5;
-    font-size:1.4rem;
 }
 
 #lead .lead-area p{
-     width:48%;   
+     width:80%;   
     padding: 50px 0 0 0;
     line-height: 2.8;
 }
 
 #lead .lead-area .lead-btn{
     width:10%; 
-    position: relative;
     top: 240px;
+    padding-top: 80px;
 }
 
 #lead .btn04{
@@ -267,9 +245,7 @@ h1,
 
 
 @media screen and (max-width:1300px) {
-#lead .lead-area h2{
-    line-height:2;
-}
+
 #lead .lead-area p{
     line-height: 2.3;
 }    
@@ -286,15 +262,12 @@ h1,
         width:250px;
     }
     
-#lead .lead-area h2,
+
 #lead .lead-area p{
     width:auto;
 } 
     
-#lead .lead-area h2{
-    margin:0 0 0 20px;
-    line-height: 2.2;
-}
+
     
 #lead .lead-area p{
     line-height: 2;
@@ -626,6 +599,19 @@ _:-ms-lang(x)::-ms-backdrop, #lead .lead-area p{
 #footer dl dd{
     font-size: 2rem;
 }
+
+.fa-github {
+    color: var(--primary-dark);
+    font-size: 24px;
+    transition: transform 0.3s ease-in-out;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .fa-github:hover {
+    transform: rotate(360deg) scale(1.1);
+  }
+
 
 @media screen and (max-width:900px) {
     #footer dl{
