@@ -330,8 +330,9 @@ _:-ms-lang(x)::-ms-backdrop, #lead .lead-area p{
 }
 
 .logo{
-    width: 5%;
-    height: 5%;
+    width: 90px;
+    height: auto;
+  
 
 }
 
@@ -339,13 +340,20 @@ _:-ms-lang(x)::-ms-backdrop, #lead .lead-area p{
     padding-top: 10px;
 }
 
-@media (max-width: 800px) {
+@media screen and (max-width: 700px) {
     #logos {
-      flex: 70%;
+      width: 100%;
+      height: auto;
       flex-wrap: wrap;
+      align-items: center;
     }
   }
 
+  @media screen and (max-width: 700px) {
+    .logo {
+    padding: 0 5px 0 5px;
+    }
+  }
 
 
 /* menu */
