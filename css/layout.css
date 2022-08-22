@@ -46,6 +46,7 @@ h1,
 #g-nav-list li:nth-child(1),
 #menu h2,
 #contact-title,
+#skills,
 #footer dl dd,
 #splash-logo{
     font-family:'Parisienne', cursive;
@@ -309,6 +310,43 @@ _:-ms-lang(x)::-ms-backdrop, #lead .lead-area p{
     line-height: 1.8;
 }
 }
+/* skills */
+#skills h2{
+    font-size: 4rem;
+    text-align: center;
+    margin: 0 0 50px 0;
+    font-weight: normal;
+    color: #62BF04;
+}
+
+#logos{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 10px 0 10px;
+    font-family:'Noto Serif JP', serif;
+    font-size: 12px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 5%;
+    height: 5%;
+
+}
+
+.logo p{
+    padding-top: 10px;
+}
+
+@media (max-width: 800px) {
+    #logos {
+      flex: 70%;
+      flex-wrap: wrap;
+    }
+  }
+
+
 
 /* menu */
 
