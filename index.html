@@ -15,7 +15,7 @@
 <link rel="stylesheet" type="text/css" href="css/reset.css">
 <link rel="stylesheet" type="text/css" href="css/parts.css">
 <link rel="stylesheet" type="text/css" href="css/layout.css">
-<link rel="icon" type="image/jpg" href="img/favicon.jpg">
+<link rel="icon" type="image/jpg" href="img/favicon.png">
 </head>
 <body>
 <div id="splash">
@@ -156,14 +156,27 @@
         <!--/contact--></section>
         
         <section id="contact" class="inner">
-            <div class="contact-img fadeInTrigger"></div>
+            
             <div class="contact-area fadeInTrigger">
-            <h2>Please call</h2>
-            <dl>
-                <dt><a href="tel:03-1234-5678">TEL 03-1234-5678</a></dt>
-                <dd>（営業時間：10:00-20:00）</dd>
-            </dl>
-             <div class="contact-btn"><a href="#" class="btn04 bordertop"><span>Contact</span></a></div>
+           <form action="#">
+                <div class="contact-item">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="your-name">
+                </div>
+                <div class="contact-item">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="your-email">
+                </div>
+                <div class="contact-item">
+                    <label>Message</label>
+                    <textarea id="message" name="your-message"></textarea>
+                </div>
+
+                <input type="submit" class="send-button contact-item" value="Send">
+            </form>
+    
+            <!-- <div class="contact-btn"><a href="https://forms.gle/SkDrA6JkeVUk44Tp7" class="btn04 bordertop" target="_blank"><span>Go to contact page</span></a></div> -->
+             
             <!--/contact-area--></div>
         </section>
         

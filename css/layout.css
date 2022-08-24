@@ -281,6 +281,7 @@ h1,
 
 #lead .btn04{
     padding: 10px 30px;
+    margin: 0 auto;
 }
     
 }
@@ -408,23 +409,60 @@ _:-ms-lang(x)::-ms-backdrop, #lead .lead-area p{
     color: #62BF04;
 }
 
-#contact{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row-reverse;
+
+form div{
+    margin-bottom: 14px;
 }
 
-#contact .contact-img{
-    width:70%;
-    min-height: 300px;
-    background:url("../img/contact.jpg") no-repeat center;
-    background-size: cover;
+label{
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input[type="text"],input[type="email"],textarea{
+    background: rgb(194,242,121,.5);
+    border: 1px #65A603 solid;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+
+input[type="text"],input[type="email"]{
+    width: 100%;
+    max-width: 240px;
+}
+
+textarea{
+    width: 100%;
+    max-width: 480px;
+    height: 6rem;
+}
+
+input[type="submit"]{
+    border: none;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.send-button{
+    font-size: 1.375rem;
+    background: #9AD93D;
+    color: #fff;
+    border-radius: 5px;
+    padding: 18px 32px;
+}
+
+.send-button:hover{
+    background: #62BF04;
+}
+
+.contact-item{
+    margin-bottom: 20px;
 }
 
 #contact .contact-area{
-    width:25%;
     text-align: center;
 }
 
@@ -451,9 +489,7 @@ _:-ms-lang(x)::-ms-backdrop, #lead .lead-area p{
 #contact .contact-area{
     width:100%;
     }
-#contact .contact-img{
-        margin:0 0 50px 0;
-}
+
 }
 
 #contact .contact-area h2{
@@ -471,49 +507,7 @@ _:-ms-lang(x)::-ms-backdrop, #lead .lead-area p{
     margin:0 0 30px 0;
 }
 
-/* blog */
 
-#blog{
-    margin:0 0 50px 0;
-}
-.blog-area{
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    flex-wrap: wrap;
-    overflow: hidden;
-}
-
-.blog-area article:nth-of-type(1){ 
-    width:30%;
-}
-
-.blog-area .blog-block{
-    width:68%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.
-@media screen and (max-width:820px) {
-.blog-area article:nth-of-type(1) img{
-    width:100%;
-    height:auto;
-} 
-.blog-area .blog-block article:nth-of-type(1) img{
-    width:auto;
-    height:32vh;
-    }
-}
-  
-@media screen and (max-width:450px){
-.blog-area img,
-.blog-area .blog-block article:nth-of-type(1) img{
-    width:100%;
-    height:auto;
-}
-}
 
 
 
