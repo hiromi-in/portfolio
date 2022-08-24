@@ -404,7 +404,6 @@ _:-ms-lang(x)::-ms-backdrop, #lead .lead-area p{
 #contact-title h2{
     font-size: 4rem;
     text-align: center;
-    margin: 0 0 50px 0;
     font-weight: normal;
     color: #62BF04;
 }
@@ -429,21 +428,20 @@ input[type="text"],input[type="email"],textarea{
 }
 
 
-input[type="text"],input[type="email"]{
-    width: 100%;
-    max-width: 240px;
+input[type="text"],input[type="email"],textarea{
+    width: 50%;
 }
 
 textarea{
-    width: 100%;
-    max-width: 480px;
-    height: 6rem;
+    width: 60%;
+    height: 10rem;
 }
 
 input[type="submit"]{
     border: none;
     cursor: pointer;
     line-height: 1;
+    margin-top: 50px;
 }
 
 .send-button{
