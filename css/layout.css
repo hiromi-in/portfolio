@@ -477,19 +477,19 @@ input[type="submit"]{
 
 @media screen and (max-width:1190px) {
 #contact .contact-img{
-    width:60%;
+    width:100%;
     }
 #contact .contact-area{
-    width:35%;
+    width:100%;
     }
 }
 
 @media screen and (max-width:768px) {
 #contact .contact-img{
-    width:48%;
+    width:100%;
     }
 #contact .contact-area{
-    width:48%;
+    width:100%;
     }
 }
 
@@ -528,7 +528,11 @@ h4 a{
 }
 
 h4{
-    margin-top: 50px;
+    margin: 80px 0 0 0;
+    border: #555;
+    border-style: solid;
+    border-width: 1px;
+    padding: 8px 16px;
 }
 
 
