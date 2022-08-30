@@ -63,8 +63,7 @@ h1,
 }
 
 @media screen and (max-width:768px) {
-#menu h2,
-#blog h2{
+#menu h2{
     font-size: 3rem;
     }
     
@@ -145,7 +144,7 @@ h1,
 }
 .header-area p{
     font-size:0.8rem;
-    whitewhite-space:no
+    white-space:no
 }
 
 .header-area p br{
